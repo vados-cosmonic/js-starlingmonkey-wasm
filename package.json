@@ -1,0 +1,27 @@
+{
+  "name": "@vados-cosmonic/starlingmonkey-wasm",
+  "version": "0.0.1+sm@fb85134",
+  "description": "StarlingMonkey WASM build, pre-optimized with wasm-opt, with and without asyncify",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "starling-monkey.wasm",
+    "starling-monkey.weval.wasm",
+    "starling-monkey.optimized-async.wasm",
+    "starling-monkey.optimized-async.weval.wasm"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vados-cosmonic/js-starlingmonkey-wasm-opt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vados-cosmonic/js-starlingmonkey-wasm-opt/issues"
+  },
+  "homepage": "https://github.com/vados-cosmonic/js-starlingmonkey-wasm-opt#readme"
+}
